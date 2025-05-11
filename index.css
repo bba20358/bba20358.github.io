@@ -47,11 +47,13 @@ nav{
     margin: 0 auto;
     padding: 1rem;
     margin-top: 12rem;
+    background-color: rgb(241, 153, 129);
 }
 .img-container{
     margin: 0 auto;
-    border: solid 4px pink;
+    border: solid 4px rgb(0, 0, 0);
     width: fit-content;
+    box-shadow: 5px 5px 20px 0px rgb(0, 0, 0);
 }
 .slide-container img{
     width: 20rem;
@@ -66,7 +68,6 @@ nav{
     margin: 0 0.25rem;
 }
 .img-handler{
-    border: solid 1px red;
     width: fit-content;
     display: flex;
     justify-content: space-evenly;
@@ -76,4 +77,150 @@ nav{
 .img-handler button{
     font-size: 2rem;
     border-radius: 15px;
+}
+
+.middle{
+}
+.container-frame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middle img{
+    width: 10rem;
+    height: 10rem;
+    margin: 2rem;
+    margin-right: 4rem;
+    box-shadow: 3px 3px 10px 0px rgb(0, 0, 0);
+    border-radius: 15px;
+}
+.txt-wrapper{
+    width: 70%;
+    font-size: 1.2rem;
+}
+.txt-wrapper p{
+    background-color: rgb(255, 181, 77);
+    padding: 1.25rem;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px 0px rgb(0, 0, 0);
+}
+
+
+.section-bottom{
+    background-color: brown;;
+    margin-top: 3rem;
+    text-align: center;
+    padding: 2.5rem 0;
+    font-size: 1.5rem;
+    color: white;
+    box-shadow: 3px -3px 10px black;
+    
+}
+.section-bottom a{
+    margin: 0 0.5rem
+}
+.assignments{
+    font-size: 2rem;
+}
+.first-bottom{
+    margin-bottom: 2rem;
+}
+
+/* [...] */
+.assignments-page{
+
+}
+.assignments-page h1, .labex-page h1, .form-container h1{
+    margin-top: 15rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+    font-size: 2.5rem;
+}
+
+.google-pres, .youtubevideo{
+    width: 80%;
+    margin: 2.5rem auto;;
+    background-color: rgb(255, 181, 77);
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px 0px rgb(0, 0, 0);
+    color: rgb(56, 0, 0);
+    text-align: center;
+    padding: 2.5rem 0;
+}
+
+.google-pres h2, .youtubevideo h2{
+    font-size: 2.25rem;
+    margin: 1rem 0
+
+}
+.google-pres p, .youtubevideo p{
+    font-size: 1.5rem;
+}
+.labex-page p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+/* [...] */
+
+.form-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.wrapper-left{
+    background-color: rgb(255, 181, 77);
+    margin-right: 2rem;
+}
+
+.wrapper-left h2{
+    font-size: 2rem;
+}
+.wrapper-left p{
+    margin: 1rem 0;
+    font-size: 1.25rem;
+}
+
+.wrapper-right{
+    background-color: brown;
+    margin-left: 2rem;
+}
+.wrapper-right h3{
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+.wrapper-right input, .wrapper-right textarea{
+    display: block;
+    background-color: transparent;
+    background-color: rgb(128, 36, 36);
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 0.5rem 0.75rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    border-radius:15px;
+}
+.wrapper-right button{
+    display: block;
+    margin: 2rem auto;
+    background-color: rgb(255, 181, 77);
+    padding: 0.5rem 1.5rem;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+}
+.wrapper-left, .wrapper-right {
+    
+    padding: 4rem 2rem;
+    box-shadow: 3px 3px 10px 0 black;
+    border-radius: 15px;
+}
+
+
+.tag-video{
+    margin-top: 15rem;
 }
