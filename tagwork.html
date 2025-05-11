@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ο Φούρνος της Γειτονιάς μας</title>
+    <link href="index.css" rel="stylesheet"/>
+    <style>
+        .gp-a:hover, .v-a:hover{
+            transition: 250ms;
+            text-shadow: 3px 3px 3px black;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="img/logo.png" alt="">
+            <div>
+                <h2 style="margin-bottom: 0.5rem;">Ο Φούρνος της Γειτονιάς μας</h2>
+                <h1 style="margin-bottom: 1rem;">ΕΥΘΥΜΙΑ ΠΙΝΕ</h1>
+                <p>bba20358@uom.edu.gr</p>
+            </div>
+        </div>
+
+        <div class="nav-right">
+            <a href="https://bba20358.github.io"><p>Αρχική</p></a>
+            <a href="https://bba20358.github.io/assignments.html"><p>ΕΡΓΑΣΙΕΣ</p></a>
+            <a href="https://bba20358.github.io/ladex.html"><p>Ασκήσεις Εργαστηρίου</p></a>
+            <a href="https://bba20358.github.io/contact.html"><p>Επικοινωνία</p></a>
+            <a href="https://linkedin.com/feed/?trk=hb=signin"><img src="c:\Users\FUJITSU\Downloads\linkedin-brands.svg" alt="" style="width: 2.5rem; height: 2.5rem; filter: invert(100%)"></a>
+        </div>
+    </nav>
+    <main>
+        <div class="assignments-page">
+            <h1>Αρχεία Ετικετών: Εργασίες </h1>
+            <hr>
+            <div class="google-pres">
+                <h2 class="gp-a">Google Presentation</h2>
+                <p>Σε αυτό το άρθρο θα βρείτε την παρουσίαση με τα screenshots που απαιτούν οι εργασίες του μαθήματος.</p>
+            </div>
+
+            <div class="youtubevideo">
+                <h2 class="v-a">Youtube Video</h2>
+                <p>Παρακάτω θα βρείτε το βίντεο της επιχείρησής μας από το κανάλι μας στο Youtube</p>
+            </div>
+        </div>
+
+<!--  -->
+<section class="section-bottom">
+    <div class="first-bottom">
+        <a href="https://bba20358.github.io/tagvideo.html">Βίντεο</a>
+        <a href="https://bba20358.github.io/tagwork.html" class="assignments">Εργασίες</a>
+        <a href="https://bba20358.github.io/tagwork">Παρουσίαση</a>
+    </div>
+    <div class="sec-bottom">
+        <a href="">Απρίλιος 2025</a>
+        <a href="">Μάρτιος 2025</a>
+    </div>
+</section>
+    </main>
+</body>
+<script>
+
+    document.querySelector('.gp-a').addEventListener('click', ()=>{
+        window.location = 'https://docs.google.com/presentation/d/1Pz8S6wxeqgY8Ryhc1yfC6sDjKEIZAivZ5OB3maLF7ao/edit#slide=id.p'
+    })
+    
+    document.querySelector('.v-a').addEventListener('click', ()=>{
+        window.location = 'https://www.youtube.com/watch?v=IOWTaVe0N28'
+    })
+    </script>
+</html>
