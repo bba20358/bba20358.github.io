@@ -1,0 +1,79 @@
+html{
+    background-color: rgb(227, 129, 102);
+}
+nav, p, h1, h2, h3, h4, h5, h6, div, section, html, main{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color: brown;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    height: 8rem;
+    box-shadow: 13px 13px 15px 0px rgb(39, 39, 39);
+}
+
+.nav-left{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.nav-left img{
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-right: 1rem;
+}
+.nav-right{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-right p{
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    color: rgb(232, 232, 232)
+}
+/**/
+.slide-container{
+    border: solid 1px black;
+    width: 80vw;
+    height: 60vh;
+    /* overflow: hidden; */
+    margin: 0 auto;
+    padding: 1rem;
+    margin-top: 12rem;
+}
+.img-container{
+    margin: 0 auto;
+    border: solid 4px pink;
+    width: fit-content;
+}
+.slide-container img{
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+}
+.circle{
+    width: 0.75rem;
+    height: 0.75rem; 
+    border: solid 3px brown;
+    border-radius: 50%;
+    margin: 0 0.25rem;
+}
+.img-handler{
+    border: solid 1px red;
+    width: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1rem auto 0 auto
+}
+.img-handler button{
+    font-size: 2rem;
+    border-radius: 15px;
+}
